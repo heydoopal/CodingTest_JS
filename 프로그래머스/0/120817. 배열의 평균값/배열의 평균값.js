@@ -1,4 +1,3 @@
 const solution = (numbers) => {
-  let ans = numbers.reduce((acc, cur) => acc + cur);
-  return ans / numbers.length;
+  return numbers.reduce((acc, cur) => acc + cur, 0) / numbers.length;
 };
