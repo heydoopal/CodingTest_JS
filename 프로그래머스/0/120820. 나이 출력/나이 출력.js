@@ -1,1 +1,6 @@
-const solution = age => 2022 - (age - 1);
+const solution = (age) => {
+    let birthYear = 2022 - age + 1;
+    return birthYear
+};
+
+
